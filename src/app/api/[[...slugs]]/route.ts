@@ -27,7 +27,7 @@ const app = new Elysia({ prefix: "/api", aot: false })
     console.log(token);
     const tokenMatch = searchToken(token)[0];
     console.log("---tokenMatch---");
-    console.log(tokenMatch)
+    console.log(tokenMatch);
     if (!tokenMatch) {
       return {
         error: `Token ${token} not found`,
@@ -35,7 +35,7 @@ const app = new Elysia({ prefix: "/api", aot: false })
     }
     const tokenMetadata = await ftGetTokenMetadata(tokenMatch.id);
     console.log("---tokenMetadata---");
-    console.log(tokenMetadata)
+    console.log(tokenMetadata);
     if (!tokenMetadata) {
       return {
         error: `Metadata for token ${token} not found`,
