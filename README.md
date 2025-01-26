@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Ref Finance DeFi Swap Agent
 
 <img src="https://github.com/user-attachments/assets/aa54bac4-30ef-49bb-bac7-732ff561bd95" alt="cover_image" width="0"/>
@@ -57,3 +58,6 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 <img src="https://i.imgur.com/fgFX6BS.png" alt="detail_image" width="0"/>
 
 
+=======
+# hat-ai-methods
+>>>>>>> 939f29c74b8e08a06405fe58cae0d9b81507b1d6
